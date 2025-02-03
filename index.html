@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Fernando Reyes Carpio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabecera">
+        <img src="img/fotoMia.jpg" alt="Fernando Reyes Carpio" class="foto-perfil">
+        <h1>Fernando Reyes Carpio</h1>
+        <h2 data-key="desarrolladorSoftware">Desarrollador de Software</h2>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi" data-key="sobreMi">Sobre Mí</a></li>
+                <li><a href="#proyectos" data-key="proyectos">Proyectos</a></li>
+                <li><a href="#habilidades" data-key="habilidades">Habilidades</a></li>
+                <li><a href="#contacto" data-key="contacto">Contacto</a></li>
+                <li class="idioma">
+                    <button class="boton-idioma" data-key="idiomasCabezal">🌍</button>
+                    <ul class="menu-idioma">
+                        <li><a href="#" class="idioma-es" data-lang="es">Español</a></li>
+                        <li><a href="#" class="idioma-en" data-lang="en">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mi" class="sobre-mi">
+        <h3 data-key="sobreMi">Sobre Mí</h3>
+        <p data-key="descripcionSobreMi">Desarrollador apasionado por la creación de soluciones tecnológicas eficientes. Especializado en desarrollo web frontend y backend con experiencia en diversas tecnologías.</p>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+        <h3 data-key="proyectos">Proyectos Destacados</h3>
+        <div class="proyecto">
+            <img src="https://kinsta.com/wp-content/uploads/2021/03/HTML-5-Badge-Logo.png" alt="Proyecto 1">
+            <h4 data-key="paginaAirsoft">Página web para una empresa de airsoft</h4>
+            <p data-key="paginaAirsoftp">Página web que se centra en la compra de productos de airsoft.</p>
+            <a href="https://airforcebellatornazarene.w3spaces.com/index.html" target="_blank" data-key="visitarPagina">Visitar la página</a>
+        </div>
+        <div class="proyecto">
+            <img src="https://www.mondosonoro.com/wp-content/uploads/2024/11/Duki.jpg" alt="Proyecto 2">
+            <h4 data-key="paginaDuki">Página personalizada de Duki</h4>
+            <p data-key="paginaDukip">Página enfocada en uno de los artistas que más sigo.</p>
+            <a href="https://fercorpo.github.io/paginaDukiDise-o/" target="_blank" data-key="visitarPagina">Visitar la página</a>
+        </div>
+        <div class="proyecto">
+            <img src="https://achtungmag.com/wp-content/uploads/2022/08/ICONICA-FEST_p.jpg" alt="Proyecto 3">
+            <h4 data-key="paginaIconica">Página festival IcónicaFest Sevilla</h4>
+            <p data-key="paginaIconicap">Página enfocada en el festival IconicaFest y para los interesados en los festivales en general.</p>
+            <a href="https://fercorpo.github.io/paginaIconicaFest/" target="_blank" data-key="visitarPagina">Visitar la página</a>
+        </div>
+        <div class="proyecto">
+            <img src="https://media2.dev.to/dynamic/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzx5g6fxr3kdrfpwxpvec.png" alt="Proyecto 4">
+            <h4 data-key="proyectoDjango">Proyecto personal Django</h4>
+            <p data-key="proyectoDjangop">Enlace a mi proyecto personal de django y las bases de mi TFG.</p>
+            <a href="http://fernando.ieshm.org/" target="_blank" data-key="produccion">Enlace producción</a>
+            <a href="http://127.0.0.1:8000/" target="_blank" data-key="local">Enlace local</a>
+        </div>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+        <h3 data-key="habilidades">Habilidades</h3>
+        <ul>
+            <li><strong>Front-end:</strong><i> HTML5, CSS, JavaScript, Bootstrap</i></li>
+            <li><strong>Back-end:</strong><i> Java, Python, SQL, PL/SQL</i></li>
+            <li><strong data-key="herramientas">Herramientas:</strong><i> Visual Studio Code, Eclipse, Docker, AWS</i></li>
+            <li><strong data-key="versiones">Control de versiones:</strong><i> Git, GitHub</i></li>
+            <li><strong data-key="idiomas">Idiomas:</strong><i data-key="idiomasp"> Español (nativo), Inglés (C1)</i></li>
+        </ul>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h3 data-key="contacto">Contacto</h3>
+        <p><strong data-key="telefono">Teléfono:</strong> +34 633 65 68 43</p>
+        <p><strong>Email:</strong> <a href="mailto:ferreyescarpio@gmail.com">ferreyescarpio@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/fernando-reyes" target="_blank" data-key="perfilLinkedin">Mi perfil Linkedin</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/FerCorpo" target="_blank" data-key="perfilGithub">Mi perfil GitHub</a></p>
+    </section>
+
+    <script src="idioma_script.js"></script>
+</body>
+</html>

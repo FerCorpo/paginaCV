@@ -1,0 +1,214 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+    max-height: 200px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Secciones */
+section {
+    margin: 40px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 700px;
+    background: #f9f9f9;
+    border-left: 5px solid #004080;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 22px;
+    color: #004080;
+    text-align: center;
+}
+
+/* Proyectos */
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.proyecto {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.proyecto img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.proyecto a {
+    display: block;
+    margin-top: 10px;
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.proyecto a:hover {
+    text-decoration: underline;
+}
+
+/* Contacto */
+.contacto p {
+    text-align: center;
+}
+
+.contacto p a {
+    color: #004080;
+    text-decoration: none;
+}
+
+.contacto p a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo del botón de idioma */
+.boton-idioma {
+    background-color: rgba(255, 255, 255, 0.1);  /* Fondo similar al de los enlaces de la navbar */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efecto hover del botón de idioma */
+.boton-idioma:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Menú de idioma (inicialmente oculto) */
+.menu-idioma {
+    display: none;
+    position: absolute;
+    top: 100%;  /* Posiciona el menú debajo del botón */
+    left: 0;    /* Lo alinea con el borde izquierdo del contenedor */
+    background-color: #004080;
+    border-radius: 5px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;  /* Ajusta el ancho según sea necesario */
+    z-index: 10;
+}
+
+/* Estilo de los elementos dentro del menú */
+.menu-idioma li {
+    display: block;
+}
+
+/* Estilo de los enlaces dentro del menú */
+.menu-idioma li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Efecto hover en los enlaces del menú */
+.menu-idioma li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Mostrar el menú cuando se hace hover sobre el contenedor de idioma */
+.idioma:hover .menu-idioma {
+    display: block;
+}
+
+/* Estilo del contenedor li para asegurar que el menú se posicione correctamente */
+.idioma {
+    position: relative;
+}
+
+/* Navbar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
